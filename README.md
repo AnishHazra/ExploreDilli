@@ -8,3 +8,8 @@ Structuring a SwiftUI project using the MVVM architecture
 Managing data flow and UI updates efficiently
 
 Feel free to explore, contribute, or provide feedback! 🚀
+
+### Demo
+
+https://github.com/user-attachments/assets/892a4179-2828-4244-a96b-03c48b5422f8
+
