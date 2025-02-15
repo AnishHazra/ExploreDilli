@@ -2,7 +2,7 @@
 //  LocationsDataService.swift
 //  MapTest
 //
-//  Created by Nick Sarno on 11/26/21.
+//  Created by Anish Hazra on 15/02/25.
 //
 
 import Foundation
@@ -12,61 +12,92 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "Colosseum",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
-            description: "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age.",
+            name: "Red Fort",
+            cityName: "Central Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.6562, longitude: 77.2410),
+            description: "Red Fort is a historic fort in the heart of Old Delhi, India. Built by Mughal Emperor Shah Jahan in 1648, it served as the main residence of the Mughal emperors for nearly 200 years. The fort is renowned for its stunning red sandstone architecture, intricate carvings, and expansive courtyards. A UNESCO World Heritage Site, it houses significant structures like the Diwan-i-Aam, Diwan-i-Khas, and the iconic Lahori Gate. Today, the Red Fort stands as a symbol of India’s rich history and hosts the annual Independence Day celebrations.",
             imageNames: [
-                "Akshardham-Temple-1",
-                "Akshardham-Temple-2",
-                "Akshardham-Temple-3",
-                "Akshardham-Temple-4",
-                "Akshardham-Temple-5"
+                "Red_Fort_1",
+                "Red_Fort_2",
+                "Red_Fort_3",
+                "Red_Fort_4",
             ],
-            link: "https://en.wikipedia.org/wiki/Colosseum"),
+            link: "https://en.wikipedia.org/wiki/Red_Fort"),
         Location(
-            name: "Pantheon",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.8986, longitude: 12.4769),
-            description: "The Pantheon is a former Roman temple and since the year 609 a Catholic church, in Rome, Italy, on the site of an earlier temple commissioned by Marcus Agrippa during the reign of Augustus.",
+            name: "Jama Masjid",
+            cityName: "New Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.6507, longitude: 77.2334),
+            description:
+            "Jama Masjid, located in Old Delhi, India, is one of the largest and most magnificent mosques in the country. Built by Mughal Emperor Shah Jahan in 1656, the mosque showcases stunning Mughal architecture with red sandstone and white marble domes. It can accommodate over 25,000 worshippers at a time. The mosque’s towering minarets offer breathtaking panoramic views of Old Delhi. A symbol of cultural heritage and spiritual significance, Jama Masjid remains a must-visit landmark for history and architecture enthusiasts.",
             imageNames: [
-                "Akshardham-Temple-2",
-                "rome-pantheon-2",
-                "rome-pantheon-3",
+                "Jama_Masjid_1",
+                "Jama_Masjid_2",
+                "Jama_Masjid_3",
+                "Jama_Masjid_4",
             ],
-            link: "https://en.wikipedia.org/wiki/Pantheon,_Rome"),
+            link: "https://en.wikipedia.org/wiki/Jama_Masjid,_Delhi"),
         Location(
-            name: "Trevi Fountain",
-            cityName: "Rome",
-            coordinates: CLLocationCoordinate2D(latitude: 41.9009, longitude: 12.4833),
-            description: "The Trevi Fountain is a fountain in the Trevi district in Rome, Italy, designed by Italian architect Nicola Salvi and completed by Giuseppe Pannini and several others. Standing 26.3 metres high and 49.15 metres wide, it is the largest Baroque fountain in the city and one of the most famous fountains in the world.",
+            name: "India Gate",
+            cityName: "New Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.6129, longitude: 77.2295),
+            description: "India Gate is a war memorial located in the heart of New Delhi, India. It was built to honor the soldiers of the British Indian Army who lost their lives in World War I and the Third Anglo-Afghan War. Designed by Sir Edwin Lutyens, the 42-meter-tall monument resembles the Arc de Triomphe in Paris and stands as a symbol of bravery and sacrifice. The structure is surrounded by lush lawns, making it a popular spot for tourists and locals alike.",
             imageNames: [
-                "Akshardham-Temple-3",
-                "rome-trevifountain-2",
-                "rome-trevifountain-3",
+                "India_Gate_1",
+                "India_Gate_2",
+                "India_Gate_3",
+                "India_Gate_4",
             ],
-            link: "https://en.wikipedia.org/wiki/Trevi_Fountain"),
+            link: "https://en.wikipedia.org/wiki/India_Gate"),
         Location(
-            name: "Eiffel Tower",
-            cityName: "Paris",
-            coordinates: CLLocationCoordinate2D(latitude: 48.8584, longitude: 2.2945),
-            description: "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Locally nicknamed 'La dame de fer', it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world.",
+            name: "Akshardham Temple",
+            cityName: "New Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.6127, longitude: 77.2773),
+            description:
+            "Akshardham Temple, located in Delhi, India, is a breathtaking Hindu temple complex dedicated to Bhagwan Swaminarayan. Inaugurated in 2005, it showcases intricate carvings, grand sculptures, and traditional Indian architecture. The temple features a massive central monument built without steel, a mesmerizing musical fountain, and the Sahaj Anand water show. The complex also includes exhibitions on Indian culture, spiritual values, and an IMAX-style theatre. As one of the largest Hindu temples in the world, Akshardham Temple offers a divine and cultural experience for visitors.",
             imageNames: [
-                "Akshardham-Temple-4",
-                "paris-eiffeltower-2",
+                "Akshardham_Temple_1",
+                "Akshardham_Temple_2",
+                "Akshardham_Temple_3",
+                "Akshardham_Temple_4",
             ],
-            link: "https://en.wikipedia.org/wiki/Eiffel_Tower"),
+            link: "https://en.wikipedia.org/wiki/Akshardham_(Delhi)"),
         Location(
-            name: "Louvre Museum",
-            cityName: "Paris",
-            coordinates: CLLocationCoordinate2D(latitude: 48.8606, longitude: 2.3376),
-            description: "The Louvre, or the Louvre Museum, is the world's most-visited museum and a historic monument in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.",
+            name: "Humayun’s Tomb",
+            cityName: "New Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.5933, longitude: 77.2507),
+            description:
+            "Humayun’s Tomb, located in Delhi, India, is a UNESCO World Heritage Site and a masterpiece of Mughal architecture. Built in 1570 by Empress Bega Begum in memory of Emperor Humayun, it was the first garden tomb in India and later inspired the design of the Taj Mahal. The structure features Persian and Indian architectural influences, with red sandstone facades, intricate marble inlays, and lush gardens. As one of Delhi’s most iconic historical monuments, Humayun’s Tomb offers visitors a glimpse into India’s rich cultural heritage.",
             imageNames: [
-                "Akshardham-Temple-5",
-                "paris-louvre-2",
-                "paris-louvre-3",
+                "Humayun’s_Tomb_1",
+                "Humayun’s_Tomb_2",
+                "Humayun’s_Tomb_3",
+                "Humayun’s_Tomb_4",
             ],
-            link: "https://en.wikipedia.org/wiki/Louvre"),
+            link: "https://en.wikipedia.org/wiki/Humayun%27s_Tomb"),
+        Location(
+            name: "Lotus Temple",
+            cityName: "New Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.5535, longitude: 77.2588),
+            description: "The Lotus Temple, located in New Delhi, India, is a Bahá'í House of Worship known for its stunning lotus-shaped architecture. Completed in 1986, it is open to people of all religions, promoting unity, peace, and meditation. The temple is surrounded by lush gardens and nine reflecting pools, enhancing its serene atmosphere. As one of the most visited landmarks in the world, the Lotus Temple stands as an architectural marvel and a spiritual haven for visitors seeking tranquility.",
+            imageNames: [
+                "Lotus_Temple_1",
+                "Lotus_Temple_2",
+                "Lotus_Temple_3",
+                "Lotus_Temple_4",
+            ],
+            link: "https://en.wikipedia.org/wiki/Lotus_Temple"),
+        Location(
+            name: "Qutub Minar",
+            cityName: "New Delhi",
+            coordinates: CLLocationCoordinate2D(latitude: 28.5245, longitude: 77.1855),
+            description: "Qutub Minar, located in Delhi, India, is a UNESCO World Heritage Site and the tallest brick minaret in the world, standing at 72.5 meters (237.8 feet). Built in 1193 by Qutb-ud-din Aibak, the minaret is an exquisite example of Indo-Islamic architecture, adorned with intricate carvings and verses from the Quran. The complex also houses the famous Iron Pillar, which has remained rust-free for centuries. Qutub Minar is a must-visit historical landmark, offering a glimpse into Delhi’s rich past.",
+            imageNames: [
+                "Qutub_Minar_1",
+                "Qutub_Minar_2",
+                "Qutub_Minar_3",
+                "Qutub_Minar_4",
+            ],
+            link: "https://en.wikipedia.org/wiki/Qutb_Minar"),
     ]
     
 }
