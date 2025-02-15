@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ExploreDilliApp: App {
+    
+    @State private var vm = LocationsViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationsView()
+                .environmentObject(vm)
         }
     }
 }
